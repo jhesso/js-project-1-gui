@@ -1,7 +1,7 @@
 # js-project-1
-Brainnest Front end development industry training JS project #1
+Brainnest Front end development industry training JS project #1 GUI version
 
-this is a very simple 🪨 📰 ✂️ game played through the console.
+this is the same 🪨 📰 ✂️ game as in the js-porject-1 repo but a GUI was added in the week 2 of JS learning.
 link to the website: https://jhesso.github.io/js-project-1/
 
 ## How to play:
