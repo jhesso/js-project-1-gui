@@ -1,0 +1,3 @@
+gotta figure out a way to use the css variables when toggling dark mode with the button
+
+make sure to include a mobile view.

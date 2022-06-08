@@ -5,10 +5,51 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>JS week one project</title>
+	<link rel="stylesheet" href="./style.css">
 </head>
 <body>
-	<h1>JS week 1 project by jhesso</h1>
-	<img src="./rockPaperScissorsLizardSpock.gif" alt="rock paper scissors lizard spock scene from big bang theory">
+	<header>
+		<!-- add header here -->
+		<div>
+			<h1>Rock paper scissors by: Jhesso</h1>
+		</div>
+	</header>
+	<div class="container">
+		<img src="./images/rockPaperScissorsLizardSpock.gif" alt="GIF of a scene where rock paper scissors lizard spock is played in the show big bang theory">
+	</div>
+	<div class="container">
+		<div class="game-container"> 
+			<!-- main game div -->
+			<div class="game-text">
+				<div id="score">
+					<p>Score(player - cpu): </p>
+				</div>
+				<div id="result">
+					<p id="result"> this will tell you wether you win or lose</p>
+				</div>
+			</div>
+			<div class="buttons">
+				<div class="button">
+					<button>rock</button>
+				</div>
+				<div class="button">
+					<button>paper</button>
+				</div>
+				<div class="button">
+					<button>scissors</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="settings">
+		<button id="instructions">how to play</button>
+		<button id="toggle-darkmode">Dark mode</button>
+	</div>
 	<script src="./main.js"></script>
+	<footer>
+		<div class="container">
+			<p>Rock Paper Scissors game by: Juho Hesso</p>
+		</div>
+	</footer>
 </body>
 </html>

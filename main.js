@@ -1,5 +1,5 @@
 console.log('Let\'s play a game >:)');
-game();
+// game();
 
 function cpuPlay(){
 	let ranNumber = Math.random() * 300;

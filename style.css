@@ -1,0 +1,96 @@
+@font-face {
+	font-family: Roboto;
+	src: url(./fonts/Roboto-Regular.ttf);
+	font-weight: normal;
+}
+@font-face {
+	font-family: Roboto;
+	src: url(./fonts/Roboto-Bold.ttf);
+	font-weight: bold;
+}
+@font-face {
+	font-family: Roboto;
+	src: url(./fonts/Roboto-Italic.ttf);
+	font-weight: italic;
+}
+
+/* variables */
+:root {
+	--main-font: Roboto;
+
+	/* colors */
+	/* white mode */
+	--white-bg: #eff1f5;
+	--white-text: #4c4f69;
+	--white-header-footer: #9ca0b0;
+	
+	/* dark mode */
+	--dark-bg: #303446;
+	--dark-text: #c6d0f5;
+	--dark-header-footer: #737994;
+}
+
+html {
+	margin: 0;
+}
+
+
+body {
+	font-family: var(--main-font);
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	background-color: var(--white-bg);
+	color: var(--white-text);
+	font-size: 20px;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	background-color: var(--white-header-footer);
+	margin-bottom: 30px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+}
+
+.container img {
+	width: 500px;
+}
+
+.game-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.game-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 500px;
+}
+
+.settings {
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+}
+.settings button {
+	width: 100px;
+	margin: 10px 30px 0px 0px;
+}
+
+footer {
+	margin-top: auto;
+	background-color: var(--white-header-footer);
+}
